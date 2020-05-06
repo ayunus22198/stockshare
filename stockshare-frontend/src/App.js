@@ -9,8 +9,8 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
-import StockList from './components/StockList';
-import Graphs from './components/Graphs';
+import StockListWrapper from './components/StockListWrapper';
+import StockGraphWrapper from './components/StockGraphWrapper';
 
 export default class App extends React.Component {
   
@@ -23,8 +23,8 @@ export default class App extends React.Component {
       <Router>
         <div>
           <Switch>
-            <Route path="/" exact component = {StockList} />
-            <Route path="/:stock" exact component = {Graphs} />
+            <Route path="/" exact component = {StockListWrapper} />
+            <Route path="/:stock" exact component = {StockGraphWrapper} />
           </Switch>
         </div>
       </Router>

@@ -1,6 +1,7 @@
 import React from 'react';
-import EntryBox from './list/EntryBox'
-export default class StockList extends React.Component {
+import EntryBox from './list/EntryBox';
+
+export default class StockListWrapper extends React.Component {
   
   state = {
 

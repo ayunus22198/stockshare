@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Graphs extends React.Component {
+export default class StockGraphWrapper extends React.Component {
   
   state = {
 
